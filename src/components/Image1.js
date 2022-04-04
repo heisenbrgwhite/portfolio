@@ -1,6 +1,6 @@
 
 import { Parallax } from 'react-parallax';
-import Im1 from "../Images/Im1.png";
+import Im1 from "../Images/Im1.jpg";
 
 
 const ImgOne= (props) => (

@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import Im3 from "../Images/Im3.png";
+import Im3 from "../Images/Im3.jpg";
 
 
 const Img3= (props) => (
