@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { ArrowSmRightIcon } from '@heroicons/react/outline';
-import {BsInstagram} from "react-icons/bs";
+import {BsChatRightDots} from "react-icons/bs";
 import {FcTodoList} from "react-icons/fc";
 import valflix from "../logo.png";
 import bgImg from '../Images/giphy.gif';
@@ -27,17 +27,18 @@ export default function Projects(){
                             <p className='text-gray-600 text-xl'>A website I developed with an idea of a Netflix Clone but instead of movies it has all kinds of video content related to my favourite game Valorant. Go check it out!</p>
                         </div>
                         <div className='bg-slate-100 pl-8 py-4'>
-                            <p className='flex items-center text-indigo-600'><a href="https://valflix.sarkardev.online">Link to website</a> <ArrowSmRightIcon className='w-5 ml-2' /></p>
+                            <p className='flex items-center text-indigo-600'><a href="http://valflix.sarkardev.online">Link to website</a> <ArrowSmRightIcon className='w-5 ml-2' /></p>
                         </div>
+                        
                     </div>
                     <div className='bg-white rounded-xl shadow-2xl'>
                         <div className='p-8'>
-                            <div className='w-16 p-4 bg-black text-white rounded-lg mt-[-4rem] border-white border-2' ><BsInstagram size={30}/></div>
-                            <h3 className='font-bold text-2xl my-6'>An Instagram clone</h3>
-                            <p className='text-gray-600 text-xl'>An Instagram Clone I developed using React Js, Firebase and Tailwind CSS. I am still developing it and I will upload it as soon as possible.</p>
+                            <div className='w-16 p-4 bg-black text-white rounded-lg mt-[-4rem] border-white border-2' ><BsChatRightDots size={30}/></div>
+                            <h3 className='font-bold text-2xl my-6'>A messaging app</h3>
+                            <p className='text-gray-600 text-xl'>A messaging app made with M.E.R.N stack for learning purposes. By creating this app I was able to get experience in MongoDB database and Express.js. </p>
                         </div>
                         <div className='bg-slate-100 pl-8 py-4'>
-                            <p className='flex items-center text-indigo-600'><a href="/">Instagram Clone</a><ArrowSmRightIcon className='w-5 ml-2' /></p>
+                            <p className='flex items-center text-indigo-600'><a href="https://my-chat-app-sarkar.netlify.app">MYCHAT-APP</a><ArrowSmRightIcon className='w-5 ml-2' /></p>
                         </div>
                     </div>
                     <div className='bg-white rounded-xl shadow-2xl'>
