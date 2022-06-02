@@ -11,7 +11,7 @@ function About() {
         <p className="text-2xl text-black  md:text-4xl font-bold text-center">
         Hey 👋  
         </p>
-        <p className="text-base text-left md:text-center text-gray-500 leading-relaxed mt-4 justify-center">
+        <p className="text-base text-white text-left md:text-center md:text-gray-500 leading-relaxed mt-4 justify-center">
         I am Soumyajeet Sarkar, a creative enthusiastic website developer. I am
         currently learning and developing interactive and functioning websites
         using React, an innovative Javascript Frontend Library. React makes web
@@ -22,7 +22,7 @@ function About() {
         on your browser.
         </p>
       </div>
-      <div className='w-full h-[590px] static '>
+      <div className='w-full h-[300px] md:h-[590px] static'>
           <img className='w-full h-full object-cover mix-blend-overlay' src={bgImg} alt="/" />
       </div>
       <ScrollIntoView selector = "#tech">

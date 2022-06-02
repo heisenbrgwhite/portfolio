@@ -66,7 +66,7 @@ function App() {
       </div>
     </div>
   ) : (
-    <div className="min-h-screen py-10 px-3 sm:px-5 bg-slate-400 scroll-smooth">
+    <div id="home" className="min-h-screen py-10 px-3 sm:px-5 bg-slate-400 scroll-smooth">
       <NavBar scroll={scroll}/>
       <div data-aos="fade-down" data-aos-duration="800">
         <Card />
@@ -74,6 +74,7 @@ function App() {
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
         <About />
         <Skills />
+        <Projects/>
         <ContactMe />
         <Footer />
       </div>
